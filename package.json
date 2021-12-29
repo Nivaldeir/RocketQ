@@ -1,0 +1,19 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Porjeto desevolvidor para gerenciar perguntas anonimas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/serve.js",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Nivaldeir Silva",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
